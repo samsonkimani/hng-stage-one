@@ -15,8 +15,8 @@ def get_info():
 
     current_utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-    github_repo_url = "https://github.com/username/repo"
+    github_file_url = "https://github.com/samsonkimani/hng-stage-one/blob/main/app.py"
+    github_repo_url = "https://github.com/samsonkimani/hng-stage-one"
 
     response_data = {
         "slack_name": slack_name,
